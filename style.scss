@@ -1,0 +1,343 @@
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 700px;
+  //   width: 1920px;
+  header {
+    height: 100px;
+    background-color: #f6f5f4;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #d3d3d3;
+    .top {
+      margin-left: 250px;
+      width: 10%;
+      height: 50%;
+      & p {
+        font-family: "Dela Gothic One";
+        font-size: 20.8609px;
+        line-height: 30%;
+      }
+    }
+    .top {
+      .div-link {
+        color: gray;
+        text-decoration: none;
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+      }
+    }
+    .top2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 50%;
+      width: 300px;
+
+      .div-link {
+        color: gray;
+        text-decoration: none;
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+      }
+    }
+    .top3 {
+      display: flex;
+      align-items: center;
+      margin-left: 320px;
+      button {
+        background-color: #f6f5f4;
+        font-weight: bold;
+        border-color: transparent;
+        padding-top: 5px;
+      }
+    }
+  }
+  .section1 {
+    background-color: #f6f5f4;
+    height: 740px;
+    .photos {
+      .back {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        height: 147px;
+        width: 111px;
+      }
+      .boi {
+        height: 507px;
+        width: 580px;
+        position: absolute;
+        top: 30%;
+        left: 48%;
+      }
+      .plant {
+        position: absolute;
+        top: 37%;
+        left: 65%;
+        width: 530px;
+        height: 571px;
+      }
+    }
+    .content {
+      margin-top: -16px;
+      p {
+        color: #2b788b;
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-weight: 700;
+        padding-left: 250px;
+        padding-top: 50px;
+        line-height: 100%;
+      }
+      h2 {
+        font-family: "Dela Gothic One";
+        margin-left: 250px;
+        font-weight: 400;
+        font-size: 40px;
+      }
+      h4 {
+        color: #757575;
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 140%;
+        margin-left: 250px;
+      }
+      button {
+        border-radius: 30px;
+        background-color: #c3dce3;
+        border-color: transparent;
+        width: 125px;
+        height: 40px;
+        margin-left: 250px;
+      }
+    }
+    .end {
+      padding-left: 250px;
+      display: flex;
+      height: 50px;
+      align-items: flex-start;
+      gap: 100px;
+      padding-top: 40px;
+      .words {
+        display: flex;
+        align-items: center;
+
+        .lightning {
+          color: #2b788b;
+          width: 15px;
+          height: 15px;
+        }
+        p {
+          font-family: "Dela Gothic One";
+          font-weight: 400;
+          font-size: 20px;
+        }
+      }
+
+      .games {
+        display: flex;
+        align-items: center;
+        .game {
+          width: 15px;
+          height: 15px;
+        }
+        p {
+          font-family: "Dela Gothic One";
+          font-weight: 400;
+          font-size: 20px;
+        }
+      }
+    }
+    .h6 {
+      display: flex;
+      padding-left: 250px;
+      height: 50px;
+      align-items: flex-end;
+      gap: 100px;
+      color: #585858;
+      font-family: "Montserrat";
+    }
+  }
+  .section2 {
+    height: 600px;
+    .image {
+      position: absolute;
+      height: 445px;
+      width: 580px;
+      left: 230px;
+    }
+    .content {
+      h2 {
+        font-family: "Dela Gothic One";
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 100%;
+        padding-left: 55%;
+      }
+      h6 {
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 140%;
+        padding-left: 55%;
+      }
+    }
+    .end {
+      .pink {
+        position: absolute;
+        background-color: #f2d4dc;
+        width: 129px;
+        height: 112px;
+        border-radius: 20px;
+        margin-left: 55%;
+        img {
+          position: absolute;
+          top: -20px;
+        }
+        .div-link {
+          color: #945069;
+          padding-top: 82px;
+          position: absolute;
+          font-family: "Montserrat";
+          text-decoration: none;
+          font-weight: 700;
+          padding-left: 25px;
+        }
+        .arrow {
+          padding-top: 100px;
+          position: absolute;
+          font-family: "Montserrat";
+          text-decoration: none;
+          font-weight: 700;
+          padding-left: 73px;
+        }
+      }
+      .blue {
+        background-color: #c3dce3;
+        position: absolute;
+        width: 172px;
+        height: 112px;
+        border-radius: 20px;
+        margin-left: 65%;
+
+        img {
+          position: absolute;
+          top: -30px;
+          padding-left: 35px;
+        }
+        .div-link {
+          color: #2b788b;
+          padding-top: 82px;
+          position: absolute;
+          font-family: "Montserrat";
+          text-decoration: none;
+          font-weight: 700;
+          padding-left: 33px;
+        }
+        .call {
+          padding-top: 110px;
+          position: absolute;
+          font-family: "Montserrat";
+          text-decoration: none;
+          font-weight: 700;
+          padding-left: 113px;
+        }
+      }
+    }
+  }
+  .section3 {
+    height: 500px;
+    background-color: #f6f5f4;
+    .image {
+      padding-left: 50%;
+    }
+    .content {
+      margin-top: -26%;
+      h2 {
+        font-family: "Dela Gothic One";
+        margin-left: 250px;
+        font-weight: 400;
+        font-size: 40px;
+      }
+      h6 {
+        color: #757575;
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 140%;
+        margin-left: 250px;
+      }
+      button {
+        border-radius: 30px;
+        background-color: #c3dce3;
+        border-color: transparent;
+        width: 125px;
+        height: 40px;
+        margin-left: 250px;
+        color: #2b788b;
+        font-family: "Montserrat";
+        font-weight: 700;
+      }
+    }
+  }
+  .section4 {
+    height: 600px;
+    .image {
+      position: absolute;
+      height: 445px;
+      width: 580px;
+      left: 200px;
+      padding-top: 50px;
+    }
+    .content {
+      padding-top: 50px;
+      h2 {
+        font-family: "Dela Gothic One";
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 100%;
+        padding-left: 55%;
+      }
+      h6 {
+        font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 140%;
+        padding-left: 55%;
+      }
+      button {
+        border-radius: 30px;
+        background-color: #c3dce3;
+        border-color: transparent;
+        width: 125px;
+        height: 40px;
+        margin-left: 55%;
+        color: #2b788b;
+        font-family: "Montserrat";
+        font-weight: 700;
+      }
+    }
+  }
+  footer {
+   background-color: #f6f5f4;
+    height: 160px;
+  }
+}
