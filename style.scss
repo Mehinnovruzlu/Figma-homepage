@@ -13,252 +13,224 @@ body {
 }
 
 .container {
-  height: 700px;
-  //   width: 1920px;
   header {
-    height: 100px;
-    background-color: #f6f5f4;
+    max-height: 40px;
     display: flex;
     align-items: center;
     border-bottom: 2px solid #d3d3d3;
-    .top {
-      margin-left: 250px;
-      width: 10%;
-      height: 50%;
-      & p {
-        font-family: "Dela Gothic One";
-        font-size: 20.8609px;
-        line-height: 30%;
-      }
-    }
-    .top {
-      .div-link {
-        color: gray;
-        text-decoration: none;
-        font-family: "Montserrat";
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 140%;
-      }
-    }
-    .top2 {
+    background-color: #f6f5f4;
+    padding: 24px 0px;
+    .content {
+      max-width: 1180px;
+      width: 100%;
       display: flex;
-      align-items: center;
+      flex-direction: row;
       justify-content: space-between;
-      height: 50%;
-      width: 300px;
-
-      .div-link {
-        color: gray;
-        text-decoration: none;
-        font-family: "Montserrat";
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 140%;
-      }
-    }
-    .top3 {
-      display: flex;
       align-items: center;
-      margin-left: 320px;
-      button {
-        background-color: #f6f5f4;
-        font-weight: bold;
-        border-color: transparent;
-        padding-top: 5px;
+      margin-left: auto;
+      margin-right: auto;
+      height: 100%;
+      .left {
+        width: 540px;
+        height: 22px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 50px;
+      }
+      .top1 {
+        & p {
+          font-family: "Dela Gothic One";
+          font-size: 21px;
+        }
+      }
+
+      .top2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 50%;
+        gap: 30px;
+
+        .div-link {
+          color: gray;
+          text-decoration: none;
+          font-family: "Montserrat";
+          font-weight: 600;
+          font-size: 16px;
+        }
+      }
+      .top3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 30px;
+        width: 241px;
+        height: 40px;
+
+        button {
+          background-color: #f6f5f4;
+          font-weight: bold;
+          border-color: transparent;
+        }
       }
     }
   }
   .section1 {
     background-color: #f6f5f4;
     height: 740px;
-    .photos {
-      .back {
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        height: 147px;
-        width: 111px;
-      }
-      .boi {
-        height: 507px;
-        width: 580px;
-        position: absolute;
-        top: 30%;
-        left: 48%;
-      }
-      .plant {
-        position: absolute;
-        top: 37%;
-        left: 65%;
-        width: 530px;
-        height: 571px;
-      }
-    }
-    .content {
-      margin-top: -16px;
-      p {
-        color: #2b788b;
-        font-family: "Montserrat";
-        font-size: 16px;
-        font-weight: 700;
-        padding-left: 250px;
-        padding-top: 50px;
-        line-height: 100%;
-      }
-      h2 {
-        font-family: "Dela Gothic One";
-        margin-left: 250px;
-        font-weight: 400;
-        font-size: 40px;
-      }
-      h4 {
-        color: #757575;
-        font-family: "Montserrat";
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 140%;
-        margin-left: 250px;
-      }
-      button {
-        border-radius: 30px;
-        background-color: #c3dce3;
-        border-color: transparent;
-        width: 125px;
-        height: 40px;
-        margin-left: 250px;
-      }
-    }
-    .end {
-      padding-left: 250px;
+    display: flex;
+    align-items: center;
+    .container {
+      max-width: 1180px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
       display: flex;
-      height: 50px;
-      align-items: flex-start;
-      gap: 100px;
-      padding-top: 40px;
-      .words {
-        display: flex;
-        align-items: center;
-
-        .lightning {
-          color: #2b788b;
-          width: 15px;
-          height: 15px;
-        }
-        p {
-          font-family: "Dela Gothic One";
-          font-weight: 400;
-          font-size: 20px;
+      .left {
+        width: 531px;
+        height: 510px;
+        .content {
+          height: 397px;
+          p {
+            color: #2b788b;
+            font-family: "Montserrat";
+            font-size: 16px;
+            font-weight: 700;
+            height: 16px;
+          }
+          h2 {
+            font-family: "Dela Gothic One";
+            font-weight: 400;
+            font-size: 40px;
+          }
+          h4 {
+            color: #757575;
+            font-family: "Montserrat";
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 140%;
+            height: 50px;
+          }
+          button {
+            border-radius: 30px;
+            background-color: #c3dce3;
+            border-color: transparent;
+            width: 165px;
+            height: 44px;
+          }
         }
       }
-
-      .games {
+      .end {
         display: flex;
-        align-items: center;
-        .game {
-          width: 15px;
-          height: 15px;
+        height: 50px;
+        width: 352px;
+        align-items: flex-start;
+        gap: 100px;
+        .words {
+          display: flex;
+          align-items: center;
+
+          .lightning {
+            color: #2b788b;
+            width: 15px;
+            height: 15px;
+          }
+          p {
+            font-family: "Dela Gothic One";
+            font-weight: 400;
+            font-size: 20px;
+          }
         }
-        p {
-          font-family: "Dela Gothic One";
-          font-weight: 400;
-          font-size: 20px;
+
+        .games {
+          display: flex;
+          align-items: center;
+          .game {
+            width: 15px;
+            height: 15px;
+          }
+          p {
+            font-family: "Dela Gothic One";
+            font-weight: 400;
+            font-size: 20px;
+          }
         }
       }
-    }
-    .h6 {
-      display: flex;
-      padding-left: 250px;
-      height: 50px;
-      align-items: flex-end;
-      gap: 100px;
-      color: #585858;
-      font-family: "Montserrat";
+      .h6 {
+        display: flex;
+        height: 50px;
+        width: 352px;
+        align-items: flex-end;
+        gap: 100px;
+        color: #585858;
+        font-family: "Montserrat";
+      }
+
+      .right {
+        background-image: url(./image/boy.svg);
+        width: 933px;
+        height: 601px;
+      }
     }
   }
   .section2 {
     height: 600px;
-    .image {
-      position: absolute;
-      height: 445px;
-      width: 580px;
-      left: 230px;
-    }
-    .content {
-      h2 {
-        font-family: "Dela Gothic One";
-        font-weight: 400;
-        font-size: 48px;
-        line-height: 100%;
-        padding-left: 55%;
-      }
-      h6 {
-        font-family: "Montserrat";
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 140%;
-        padding-left: 55%;
-      }
-    }
-    .end {
-      .pink {
-        position: absolute;
-        background-color: #f2d4dc;
-        width: 129px;
-        height: 112px;
-        border-radius: 20px;
-        margin-left: 55%;
-        img {
-          position: absolute;
-          top: -20px;
-        }
-        .div-link {
-          color: #945069;
-          padding-top: 82px;
-          position: absolute;
-          font-family: "Montserrat";
-          text-decoration: none;
-          font-weight: 700;
-          padding-left: 25px;
-        }
-        .arrow {
-          padding-top: 100px;
-          position: absolute;
-          font-family: "Montserrat";
-          text-decoration: none;
-          font-weight: 700;
-          padding-left: 73px;
+    display: flex;
+    align-items: center;
+    .container {
+      max-width: 1180px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: space-between;
+      .left {
+        .image {
+          height: 445px;
+          width: 580px;
         }
       }
-      .blue {
-        background-color: #c3dce3;
-        position: absolute;
-        width: 172px;
-        height: 112px;
-        border-radius: 20px;
-        margin-left: 65%;
-
-        img {
-          position: absolute;
-          top: -30px;
-          padding-left: 35px;
+      .right {
+        width: 475px;
+        height: 351px;
+        .content {
+          height: 206px;
+          h2 {
+            font-family: "Dela Gothic One";
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 100%;
+            width: 474.46px;
+            height: 96px;
+            letter-spacing: -0.04em;
+          }
+          h4 {
+            font-family: "Montserrat";
+            color: #757575;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 140%;
+            height: 50px;
+            letter-spacing: -0.04em;
+          }
         }
-        .div-link {
-          color: #2b788b;
-          padding-top: 82px;
-          position: absolute;
-          font-family: "Montserrat";
-          text-decoration: none;
-          font-weight: 700;
-          padding-left: 33px;
-        }
-        .call {
-          padding-top: 110px;
-          position: absolute;
-          font-family: "Montserrat";
-          text-decoration: none;
-          font-weight: 700;
-          padding-left: 113px;
+        .end {
+          display: flex;
+          gap: 21px;
+          .pink {
+            position: relative;
+            width: 131px;
+            height: 145px;
+          }
+          .blue {
+            position: relative;
+            width: 172px;
+            height: 145px;
+          }
         }
       }
     }
@@ -266,62 +238,86 @@ body {
   .section3 {
     height: 500px;
     background-color: #f6f5f4;
-    .image {
-      padding-left: 50%;
-    }
-    .content {
-      margin-top: -26%;
-      h2 {
-        font-family: "Dela Gothic One";
-        margin-left: 250px;
-        font-weight: 400;
-        font-size: 40px;
+    display: flex;
+    align-items: center;
+    .container {
+      max-width: 1180px;
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .left {
+        width: 474.46px;
+        height: 254px;
+        .content {
+          h2 {
+            font-family: "Dela Gothic One";
+            font-weight: 400;
+            font-size: 40px;
+          }
+          h4 {
+            color: #757575;
+            font-family: "Montserrat";
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 140%;
+          }
+          button {
+            border-radius: 30px;
+            background-color: #c3dce3;
+            border-color: transparent;
+            width: 125px;
+            height: 40px;
+            color: #2b788b;
+            font-family: "Montserrat";
+            font-weight: 700;
+          }
+        }
       }
-      h6 {
-        color: #757575;
-        font-family: "Montserrat";
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 140%;
-        margin-left: 250px;
-      }
-      button {
-        border-radius: 30px;
-        background-color: #c3dce3;
-        border-color: transparent;
-        width: 125px;
-        height: 40px;
-        margin-left: 250px;
-        color: #2b788b;
-        font-family: "Montserrat";
-        font-weight: 700;
+      .right {
+        width: 580px;
+        height: 473.97px;
+        align-self: flex-end;
       }
     }
   }
   .section4 {
     height: 600px;
-    .image {
-      position: absolute;
-      height: 445px;
-      width: 580px;
-      left: 200px;
-      padding-top: 50px;
+    display: flex;
+    align-items: center;
+    .container {
+      max-width: 1180px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: space-between;
+      .left {
+        .image {
+          position: absolute;
+          height: 445px;
+          width: 580px;
+        }
+      }
     }
-    .content {
-      padding-top: 50px;
+    .right {
+      width: 474.46px;
+      height: 302px;
       h2 {
         font-family: "Dela Gothic One";
         font-weight: 400;
         font-size: 48px;
         line-height: 100%;
-        padding-left: 55%;
       }
-      h6 {
+      h4 {
         font-family: "Montserrat";
+        color: #757575;
         font-weight: 600;
         font-size: 18px;
         line-height: 140%;
-        padding-left: 55%;
       }
       button {
         border-radius: 30px;
@@ -329,7 +325,6 @@ body {
         border-color: transparent;
         width: 125px;
         height: 40px;
-        margin-left: 55%;
         color: #2b788b;
         font-family: "Montserrat";
         font-weight: 700;
@@ -337,7 +332,80 @@ body {
     }
   }
   footer {
-   background-color: #f6f5f4;
+    background-color: #f6f5f4;
     height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    .container {
+      width: 1180px;
+      height: 80px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+      .footertop {
+        display: flex;
+        justify-content: space-between;
+        width: 1180px;
+        height: 14px;
+
+        .top1 {
+          display: flex;
+          justify-content: space-between;
+          width: 414px;
+          height: 14px;
+          .div-link {
+            color: gray;
+            text-decoration: none;
+            font-family: "Montserrat";
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+          }
+        }
+        .top2 {
+          display: flex;
+          justify-content: space-between;
+          width: 197px;
+          height: 14px;
+          .div-link {
+            color: gray;
+            text-decoration: none;
+            font-family: "Montserrat";
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+          }
+        }
+      }
+      .footerbottom {
+        display: flex;
+        justify-content: space-between;
+        width: 1180px;
+        height: 26px;
+
+        .logos {
+          justify-content: space-between;
+          align-items: center;
+          display: flex;
+          width: 150px;
+          height: 24px;
+        }
+        .top3 {
+          width: 246px;
+          height: 12px;
+          color: gray;
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          align-items: center;
+          display: flex;
+          justify-content: flex-end;
+        }
+      }
+    }
   }
 }
