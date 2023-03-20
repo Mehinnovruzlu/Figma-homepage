@@ -59,6 +59,10 @@ body {
           font-family: "Montserrat";
           font-weight: 600;
           font-size: 16px;
+          &:hover{
+            color:black;
+            font-weight: bold;
+        }
         }
       }
       .top3 {
@@ -74,6 +78,11 @@ body {
           background-color: #f6f5f4;
           font-weight: bold;
           border-color: transparent;
+          cursor: pointer;
+          &:hover{
+              transition: 0.8s ease;
+              opacity: .6;
+          }
         }
       }
     }
@@ -120,6 +129,11 @@ body {
             border-color: transparent;
             width: 165px;
             height: 44px;
+            cursor: pointer;
+            &:hover{
+                transition: 0.8s ease;
+                opacity: .6;
+            }
           }
         }
       }
@@ -274,6 +288,11 @@ body {
             color: #2b788b;
             font-family: "Montserrat";
             font-weight: 700;
+            cursor: pointer;
+            &:hover{
+                transition: 0.8s ease;
+                opacity: .6;
+            }
           }
         }
       }
@@ -328,15 +347,21 @@ body {
         color: #2b788b;
         font-family: "Montserrat";
         font-weight: 700;
+        cursor: pointer;
+        &:hover{
+            transition: 0.8s ease;
+            opacity: .6;
+        }
       }
     }
   }
   footer {
     background-color: #f6f5f4;
-    height: 160px;
+    // height: 160px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    padding:40px 0 ;
     .container {
       width: 1180px;
       height: 80px;
@@ -350,6 +375,7 @@ body {
         justify-content: space-between;
         width: 1180px;
         height: 14px;
+        padding-bottom: 20px;
 
         .top1 {
           display: flex;
@@ -363,6 +389,9 @@ body {
             font-weight: 600;
             font-size: 16px;
             line-height: 140%;
+            &:hover{
+                color:black;
+            }
           }
         }
         .top2 {
@@ -385,6 +414,8 @@ body {
         justify-content: space-between;
         width: 1180px;
         height: 26px;
+        border-top: 1.2px solid #E0E0E0;
+        padding-top: 24px;
 
         .logos {
           justify-content: space-between;

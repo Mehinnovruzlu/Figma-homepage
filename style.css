@@ -58,6 +58,10 @@ body {
   font-weight: 600;
   font-size: 16px;
 }
+.container header .content .top2 .div-link:hover {
+  color: black;
+  font-weight: bold;
+}
 .container header .content .top3 {
   display: flex;
   flex-direction: row;
@@ -71,6 +75,11 @@ body {
   background-color: #f6f5f4;
   font-weight: bold;
   border-color: transparent;
+  cursor: pointer;
+}
+.container header .content .top3 button:hover {
+  transition: 0.8s ease;
+  opacity: 0.6;
 }
 .container .section1 {
   background-color: #f6f5f4;
@@ -118,6 +127,11 @@ body {
   border-color: transparent;
   width: 165px;
   height: 44px;
+  cursor: pointer;
+}
+.container .section1 .container .left .content button:hover {
+  transition: 0.8s ease;
+  opacity: 0.6;
 }
 .container .section1 .container .end {
   display: flex;
@@ -265,6 +279,11 @@ body {
   color: #2b788b;
   font-family: "Montserrat";
   font-weight: 700;
+  cursor: pointer;
+}
+.container .section3 .container .left .content button:hover {
+  transition: 0.8s ease;
+  opacity: 0.6;
 }
 .container .section3 .container .right {
   width: 580px;
@@ -315,13 +334,18 @@ body {
   color: #2b788b;
   font-family: "Montserrat";
   font-weight: 700;
+  cursor: pointer;
+}
+.container .section4 .right button:hover {
+  transition: 0.8s ease;
+  opacity: 0.6;
 }
 .container footer {
   background-color: #f6f5f4;
-  height: 160px;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
+  padding: 40px 0;
 }
 .container footer .container {
   width: 1180px;
@@ -337,6 +361,7 @@ body {
   justify-content: space-between;
   width: 1180px;
   height: 14px;
+  padding-bottom: 20px;
 }
 .container footer .container .footertop .top1 {
   display: flex;
@@ -351,6 +376,9 @@ body {
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
+}
+.container footer .container .footertop .top1 .div-link:hover {
+  color: black;
 }
 .container footer .container .footertop .top2 {
   display: flex;
@@ -371,6 +399,8 @@ body {
   justify-content: space-between;
   width: 1180px;
   height: 26px;
+  border-top: 1.2px solid #E0E0E0;
+  padding-top: 24px;
 }
 .container footer .container .footerbottom .logos {
   justify-content: space-between;
