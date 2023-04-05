@@ -75,6 +75,9 @@ body {
           background-color: #f6f5f4;
           font-weight: bold;
           border-color: transparent;
+          font-family: "Montserrat";
+          font-size: 16px;
+          font-weight: 700;
           cursor: pointer;
           &:hover {
             transition: 0.8s ease;
@@ -467,7 +470,7 @@ body {
           justify-content: space-around;
           width: 72%;
           .open {
-            background: url(./image/open.svg);
+            background: url(../../../image/open.svg);
             background-repeat: no-repeat;
             width: 24px;
             height: 24px;
@@ -475,14 +478,13 @@ body {
             cursor: pointer;
             &:hover {
               display: block;
-              background: url(./image/close.svg);
+              background: url(../../../image/close.svg);
               background-repeat: no-repeat;
               transition: 0.4s ease;
               .open-select {
                 position: absolute;
                 display: flex;
                 width: 100%;
-                height: 100%;
                 flex-direction: column;
                 top: 90px;
                 left: 0;
@@ -730,6 +732,7 @@ body {
             width: auto;
             .div-link {
               font-size: 12px;
+              padding: 8px 0;
             }
           }
           .top2 {
@@ -740,6 +743,7 @@ body {
             width: auto;
             .div-link {
               font-size: 12px;
+              padding: 8px 0;
             }
           }
         }
@@ -750,10 +754,12 @@ body {
           justify-content: center;
           border-top: 0;
           padding: 0;
+          margin-bottom: 20px;
           .logos {
             height: auto;
             margin-left: auto;
             margin-right: auto;
+            margin-bottom: 10px;
           }
           .top3 {
             height: auto;
