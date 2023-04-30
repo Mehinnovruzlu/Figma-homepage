@@ -1,0 +1,382 @@
+.section1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  .container {
+    max-width: 1180px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      gap: 10px;
+      width: 1180px;
+      background: #ffffff;
+      border-radius: 14px;
+      .left {
+        display: flex;
+        justify-content: space-between;
+        width: 416px;
+        height: 32px;
+
+        .textbook {
+          display: flex;
+          border-right: 3px solid #e0e0e0;
+          padding-right: 15px;
+
+          p {
+            align-self: center;
+            font-family: "Dela Gothic One";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 26px;
+          }
+        }
+        .dictionary {
+          display: flex;
+          p {
+            align-self: center;
+            font-family: "Dela Gothic One";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 26px;
+          }
+        }
+      }
+      .right {
+        gap: 10px;
+        align-items: center;
+        width: 384px;
+        height: 44px;
+        display: flex;
+        position: relative;
+        .setting {
+          background: url(./settinggray.svg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-color: #f6f5f4;
+          padding: 9.5px 9.65px;
+          border-radius: 4px;
+          width: 20.71px;
+          height: 21px;
+          cursor: pointer;
+          &:hover {
+            display: block;
+            background: url(./settinghover.svg);
+            background-color: #2b788b;
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: 0.4s ease;
+            .setting-select {
+              position: absolute;
+              z-index: 999;
+              display: flex;
+              width: 351px;
+              font-weight: 600;
+              flex-direction: column;
+              left: 0;
+              top: 55px;
+              background-color: #fff;
+              padding: 20px;
+              gap: 20px;
+              border: 1px solid #f6f5f4;
+              box-shadow: 0px 343.472px 343.472px rgba(52, 41, 39, 0.08),
+                0px 183.185px 183.185px rgba(52, 41, 39, 0.12),
+                0px 91.5925px 91.5925px rgba(52, 41, 39, 0.04),
+                0px 68.6944px 68.6944px rgba(52, 41, 39, 0.04),
+                0px 11.4491px 68.6944px rgba(52, 41, 39, 0.04),
+                0px 11.4491px 11.4491px rgba(52, 41, 39, 0.04);
+              border-radius: 14px;
+              color: #828282;
+              div input:checked {
+                background-color: #2b788b;
+              }
+            }
+          }
+          .setting-select {
+            display: none;
+          }
+        }
+      }
+    }
+    .bottom {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-end;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      gap: 40px;
+      width: 830px;
+      height: 40px;
+      .first {
+        display: flex;
+        gap: 37px;
+      }
+      .second {
+        display: flex;
+        gap: 37px;
+      }
+
+      .A1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 94px;
+        height: 26px;
+        color: #757575;
+        font-family: "Dela Gothic One";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        & p {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 140%;
+          border-radius: 5px;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          width: 43px;
+          height: 25px;
+          background-color: #639b6d4d;
+          color: #639b6d;
+        }
+      }
+      .A2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #757575;
+        font-family: "Dela Gothic One";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        width: 99px;
+        height: 26px;
+        & p {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 140%;
+          border-radius: 5px;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          width: 43px;
+          height: 25px;
+          background-color: #639b6d4d;
+          color: #639b6d;
+        }
+      }
+      .B1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #757575;
+        font-family: "Dela Gothic One";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        width: 116px;
+        height: 26px;
+        & p {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 140%;
+          border-radius: 5px;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          width: 66px;
+          height: 25px;
+          background-color: #c4a24c4d;
+          color: #c4a24c;
+        }
+      }
+      .B2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #757575;
+        font-family: "Dela Gothic One";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        width: 122px;
+        height: 26px;
+        & p {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 140%;
+          border-radius: 5px;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          width: 66px;
+          height: 25px;
+          background-color: #c4a24c4d;
+          color: #c4a24c;
+        }
+      }
+      .C1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #757575;
+        font-family: "Dela Gothic One";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        width: 96px;
+        height: 26px;
+        & p {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 140%;
+          border-radius: 5px;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          width: 45px;
+          height: 25px;
+          background-color: #cb5b434d;
+          color: #cb5b43;
+        }
+      }
+      .C2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #757575;
+        font-family: "Dela Gothic One";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        width: 103px;
+        height: 26px;
+        & p {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 140%;
+          border-radius: 5px;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          width: 45px;
+          height: 25px;
+          background-color: #cb5b434d;
+          color: #cb5b43;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) and (min-width: 340px) {
+  .section1 {
+    .container {
+      .top {
+        padding: 20px 0;
+        gap: 0;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 340px;
+        margin-top: 30px;
+        box-shadow: 0px 22.8981px 45.7963px -11.4491px rgba(52, 41, 39, 0.08);
+        .left {
+          width: 340px;
+          justify-content: center;
+          .textbook {
+            gap: 10px;
+            padding-right: 10px;
+            img {
+              width: 21px;
+            }
+            & p {
+              font-size: 20px;
+            }
+          }
+          .dictionary {
+            gap: 10px;
+            padding-left: 10px;
+            img {
+              width: 22.5px;
+            }
+            & p {
+              font-size: 20px;
+            }
+          }
+        }
+        .right {
+          width: 380px;
+          margin-top: 15px;
+          justify-content: center;
+          .pink {
+            width: 115px;
+          }
+          .blue {
+            width: 139px;
+          }
+        }
+      }
+      .bottom {
+        margin-top: 15px;
+        justify-content: center;
+        width: 380px;
+        .first {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          .A1 {
+            width: auto;
+            font-size: 18px;
+            gap: 10px;
+            & p {
+              width: 34.35px;
+              height: 19.68px;
+            }
+          }
+          .A2 {
+            width: auto;
+            gap: 10px;
+            font-size: 18px;
+            & p {
+              width: 34.35px;
+              height: 19.68px;
+            }
+          }
+          .B1 {
+            width: auto;
+            gap: 10px;
+            font-size: 18px;
+            &p {
+              width: 52.35px;
+              height: 19.68px;
+            }
+          }
+        }
+        .second {
+          display: none;
+        }
+      }
+    }
+  }
+}

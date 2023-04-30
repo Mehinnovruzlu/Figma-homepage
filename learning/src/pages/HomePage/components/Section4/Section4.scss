@@ -1,0 +1,89 @@
+.section4 {
+  display: flex;
+  align-items: center;
+  .container {
+    max-width: 1180px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .left {
+    margin: 95px 0;
+  }
+  .right {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    h2 {
+      font-family: "Dela Gothic One";
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 100%;
+      margin-top: 0px;
+    }
+    h4 {
+      font-family: "Montserrat";
+      color: #757575;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 140%;
+    }
+    .button {
+      border-radius: 30px;
+      background-color: #c3dce3;
+      border-color: transparent;
+      width: 125px;
+      height: 40px;
+      color: #2b788b;
+      font-family: "Montserrat";
+      font-weight: 700;
+      font-size: 14px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      cursor: pointer;
+      &:hover {
+        transition: 0.8s ease;
+        opacity: 0.6;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) and (min-width: 340px) {
+  .section4 {
+    .container {
+      flex-direction: column;
+      .left {
+        margin: 30px 0;
+        justify-content: center;
+        display: flex;
+        img {
+          width: 335px;
+          height: 230px;
+        }
+      }
+      .right {
+        display: block;
+        margin-bottom: 30px;
+        h2 {
+          font-size: 24px;
+          text-align: center;
+        }
+        h4 {
+          font-size: 14px;
+          text-align: center;
+        }
+        .button {
+          width: 114px;
+          height: 38px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
+}
